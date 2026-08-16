@@ -6,11 +6,17 @@
   The banner is ./assets/banner-light.svg + banner-dark.svg — edit the
   text inside those files if your title or location changes. Both files
   carry the same text, so change it in both.
+
+  The <picture> below points at raw.githubusercontent.com on purpose.
+  GitHub rewrites relative paths on <img src>, but relative paths inside
+  <source srcset> are unreliable — and when that fails you get the LIGHT
+  banner on GitHub's dark theme, which looks broken. The absolute URLs
+  hardcode the branch "main"; update them if you rename the branch.
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img src="./assets/banner-light.svg" width="100%" alt="Sasank Reddy — full-stack engineer, applied AI. Vijayawada, India. B.Tech CSE, VIT-AP 2026.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/banner-dark.svg">
+  <img src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/banner-light.svg" width="100%" alt="Sasank Reddy — full-stack engineer, applied AI. Vijayawada, India. B.Tech CSE, VIT-AP 2026.">
 </picture>
 
 I build web applications end to end and small, sharp tools on top of LLMs —
