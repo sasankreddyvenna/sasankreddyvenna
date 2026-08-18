@@ -15,6 +15,13 @@
 
   No "---" rules in this file. GitHub already draws a line under every
   "##", so a rule as well double-chops the page into slabs.
+
+  Badge colours are each brand's own. Three exceptions: Flask, Vercel and
+  GitHub are black brands, and a black badge is invisible against GitHub's
+  dark theme (#0d1117), so those use a lifted slate (#3D444D). Badges with
+  light backgrounds (JavaScript, React, AWS) use logoColor=black for
+  contrast. AWS, LinkedIn and Salesforce have no logo: their icons were
+  removed from Simple Icons over trademark, so those are text-only.
 -->
 
 <picture>
@@ -44,38 +51,38 @@ Currently going deeper on **distributed systems, testing discipline, and applied
 ## Stack
 
 **Languages**<br>
-<img alt="Python" src="https://img.shields.io/badge/Python-1F6FEB?style=flat-square&logo=python&logoColor=white">
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F6FEB?style=flat-square&logo=typescript&logoColor=white">
-<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1F6FEB?style=flat-square&logo=javascript&logoColor=white">
-<img alt="Java" src="https://img.shields.io/badge/Java-1F6FEB?style=flat-square&logo=openjdk&logoColor=white">
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+<img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
 
 **Backend &amp; data**<br>
-<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1F6FEB?style=flat-square&logo=fastapi&logoColor=white">
-<img alt="Flask" src="https://img.shields.io/badge/Flask-1F6FEB?style=flat-square&logo=flask&logoColor=white">
-<img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-1F6FEB?style=flat-square&logo=springboot&logoColor=white">
-<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white">
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-1F6FEB?style=flat-square&logo=mongodb&logoColor=white">
+<img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img alt="Flask" src="https://img.shields.io/badge/Flask-3D444D?style=flat-square&logo=flask&logoColor=white">
+<img alt="Spring Boot" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
 
 **Frontend**<br>
-<img alt="React" src="https://img.shields.io/badge/React-1F6FEB?style=flat-square&logo=react&logoColor=white">
-<img alt="React Native" src="https://img.shields.io/badge/React_Native-1F6FEB?style=flat-square&logo=react&logoColor=white">
-<img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-1F6FEB?style=flat-square&logo=tailwindcss&logoColor=white">
-<img alt="Vite" src="https://img.shields.io/badge/Vite-1F6FEB?style=flat-square&logo=vite&logoColor=white">
+<img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img alt="React Native" src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
+<img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white">
 
 **Cloud, AI &amp; tooling**<br>
-<img alt="AWS" src="https://img.shields.io/badge/AWS-1F6FEB?style=flat-square">
-<img alt="Docker" src="https://img.shields.io/badge/Docker-1F6FEB?style=flat-square&logo=docker&logoColor=white">
-<img alt="Vercel" src="https://img.shields.io/badge/Vercel-1F6FEB?style=flat-square&logo=vercel&logoColor=white">
-<img alt="Cloudflare Pages" src="https://img.shields.io/badge/Cloudflare_Pages-1F6FEB?style=flat-square&logo=cloudflarepages&logoColor=white">
-<img alt="LangChain" src="https://img.shields.io/badge/LangChain-1F6FEB?style=flat-square&logo=langchain&logoColor=white">
-<img alt="Gemini" src="https://img.shields.io/badge/Gemini-1F6FEB?style=flat-square&logo=googlegemini&logoColor=white">
-<img alt="Selenium" src="https://img.shields.io/badge/Selenium-1F6FEB?style=flat-square&logo=selenium&logoColor=white">
-<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-1F6FEB?style=flat-square&logo=pytorch&logoColor=white">
+<img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logoColor=black">
+<img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+<img alt="Vercel" src="https://img.shields.io/badge/Vercel-3D444D?style=flat-square&logo=vercel&logoColor=white">
+<img alt="Cloudflare Pages" src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflarepages&logoColor=white">
+<img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
+<img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
+<img alt="Selenium" src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white">
+<img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
 
 ## Certifications
 
-<img alt="MongoDB Certified Database Administrator" src="https://img.shields.io/badge/MongoDB_Certified_Database_Administrator-1F6FEB?style=flat-square">
-<img alt="Salesforce Certified AI Agent Developer" src="https://img.shields.io/badge/Salesforce_Certified_AI_Agent_Developer-1F6FEB?style=flat-square">
+<img alt="MongoDB Certified Database Administrator" src="https://img.shields.io/badge/MongoDB_Certified_Database_Administrator-47A248?style=flat-square&logo=mongodb&logoColor=white">
+<img alt="Salesforce Certified AI Agent Developer" src="https://img.shields.io/badge/Salesforce_Certified_AI_Agent_Developer-00A1E0?style=flat-square&logoColor=white">
 
 <!-- Add further certifications above as another <img> badge on its own line. -->
 
@@ -83,9 +90,9 @@ Currently going deeper on **distributed systems, testing discipline, and applied
 
 Happy to talk about backend work, retrieval systems, or anything on this page.
 
-[![Email](https://img.shields.io/badge/sasankreddy2084@gmail.com-1F6FEB?style=flat-square&logo=gmail&logoColor=white)](mailto:sasankreddy2084@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1F6FEB?style=flat-square)](https://www.linkedin.com/in/sasank-venna/)
-[![GitHub](https://img.shields.io/badge/GitHub-1F6FEB?style=flat-square&logo=github&logoColor=white)](https://github.com/sasankreddyvenna)
+[![Email](https://img.shields.io/badge/sasankreddy2084@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sasankreddy2084@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logoColor=white)](https://www.linkedin.com/in/sasank-venna/)
+[![GitHub](https://img.shields.io/badge/GitHub-3D444D?style=flat-square&logo=github&logoColor=white)](https://github.com/sasankreddyvenna)
 
 <!--
   Deliberately no GitHub stats / streak / top-languages cards. With the current
