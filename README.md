@@ -54,7 +54,7 @@ Currently going deeper on **distributed systems, testing discipline, and applied
 <a href="https://github.com/sasankreddyvenna/anjaneyamobiles"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-anjaneya.svg" alt="Anjaneya Mobiles — repair-shop site with live IST hours and a WhatsApp quote builder. HTML, Cloudflare Pages."></a>
 <a href="https://github.com/sasankreddyvenna/F1-inspired-streetwear-brand"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-f1.svg" alt="F1 Streetwear — catalogue, live search filtering and a cart, in a compact storefront. React, TypeScript, Tailwind."></a>
 
-Deployed and running: [ACME CPM](https://acme-project-management.vercel.app) · [F1 Streetwear](https://f1-inspired-streetwear-brand.vercel.app) · [Anjaneya Mobiles](https://anjaneyamobiles.pages.dev/)
+Deployed and running: [ACME CPM](https://acme-project-management.vercel.app) · [Customer 360 Dashboard](https://customer-360-ai-dashboard.streamlit.app/) · [Anjaneya Mobiles](https://anjaneyamobiles.pages.dev/) · [F1 Streetwear](https://f1-inspired-streetwear-brand.vercel.app)
 
 ## Stack
 
