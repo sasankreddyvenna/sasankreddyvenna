@@ -1,4 +1,4 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" role="img" aria-label="Customer 360 Dashboard. Customer context scattered across systems, pulled into a single view. Built with Python">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" role="img" aria-label="Customer 360 Dashboard. CRM, support and email for one customer, summarised into risks and next actions. Built with Streamlit, pandas, Groq">
 <title>Customer 360 Dashboard</title>
 
 <defs>
@@ -47,16 +47,16 @@
 
 <circle class="dot" cx="528" cy="40" r="4.5" fill="#5B9BD5"/>
 
-<text x="30" y="45" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1.8" fill="#5B9BD5">DATA CONSOLIDATION</text>
+<text x="30" y="45" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1.8" fill="#5B9BD5">CUSTOMER SUCCESS  /  LLM</text>
 
 <text x="30" y="89" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.3" fill="#E9EEF5">Customer 360 Dashboard</text>
 
-<text x="30" y="124" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#97A3B4">Customer context scattered across</text>
-<text x="30" y="147" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#97A3B4">systems, pulled into a single view.</text>
+<text x="30" y="124" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#97A3B4">CRM, support and email for one customer,</text>
+<text x="30" y="147" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#97A3B4">summarised into risks and next actions.</text>
 
 <path d="M30 172 H530" stroke="#29323F" stroke-width="1"/>
 
-<text x="30" y="196" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#7A8698">Python</text>
+<text x="30" y="196" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#7A8698">Streamlit  /  pandas  /  Groq</text>
 
 <rect x="0.5" y="0.5" width="559" height="219" rx="13" fill="none" stroke="#29323F" stroke-width="1"/>
 </svg>
