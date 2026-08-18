@@ -16,6 +16,14 @@
   No "---" rules in this file. GitHub already draws a line under every
   "##", so a rule as well double-chops the page into slabs.
 
+  Selected work is six SVG cards in assets/card-*.svg, shown two per row at
+  width="49%". They use ONE dark-slate design rather than a light/dark pair:
+  on the light theme that reads as a deliberate dark card, on the dark theme
+  as a card lifted off #0d1117. That keeps it to six files instead of twelve.
+  Card text is baked into the image, so edit the SVG to change wording — and
+  keep the <img alt> in step, since that is what screen readers and search
+  actually get.
+
   Badge colours are each brand's own. Three exceptions: Flask, Vercel and
   GitHub are black brands, and a black badge is invisible against GitHub's
   dark theme (#0d1117), so those use a lifted slate (#3D444D). Badges with
@@ -39,14 +47,14 @@ Currently going deeper on **distributed systems, testing discipline, and applied
 
 ## Selected work
 
-| Project | What it does | Built with |
-|---|---|---|
-| **[ACME CPM](https://github.com/sasankreddyvenna/acme-project-management)**<br>[live&nbsp;site](https://acme-project-management.vercel.app) | Projects, deliverables, resources and budgets with role-based access across five roles. Built solo in a 3-day workshop. | React · Python · PostgreSQL |
-| **[Autonomous QA Agent](https://github.com/sasankreddyvenna/Autonomous-QA-Agent)** | Turns requirement documents into grounded test cases, then generates a downloadable Selenium script from any case. | Flask · ChromaDB · Groq |
-| **[Knowledge-base Search](https://github.com/sasankreddyvenna/Knowledge-base-Search-Engine)** | RAG over uploaded PDFs — answers from the corpus when it can, falls back to a general answer when it can't. | Flask · FAISS · Gemini |
-| **[Customer 360 Dashboard](https://github.com/sasankreddyvenna/Customer-360-AI-Dashboard)** | Pulls customer context scattered across systems into one view for sales and success teams. | Python |
-| **[Anjaneya Mobiles](https://github.com/sasankreddyvenna/anjaneyamobiles)** | Repair-shop site with live open/closed status in IST, a WhatsApp quote builder, and LocalBusiness structured data. | HTML · Cloudflare Pages |
-| **[F1 Streetwear](https://github.com/sasankreddyvenna/F1-inspired-streetwear-brand)**<br>[live&nbsp;site](https://f1-inspired-streetwear-brand.vercel.app) | Storefront UI with a catalogue, live search filtering, and a cart. | React · TypeScript · Tailwind |
+<a href="https://github.com/sasankreddyvenna/acme-project-management"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-acme.svg" alt="ACME CPM — projects, deliverables, resources and budgets under role-based access. React, Python, PostgreSQL."></a>
+<a href="https://github.com/sasankreddyvenna/Autonomous-QA-Agent"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-qa.svg" alt="Autonomous QA Agent — requirement docs in, grounded test cases and Selenium scripts out. Flask, ChromaDB, Groq."></a>
+<a href="https://github.com/sasankreddyvenna/Knowledge-base-Search-Engine"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-rag.svg" alt="Knowledge-base Search — answers drawn from your own PDFs, with a fallback when they fall short. Flask, FAISS, Gemini."></a>
+<a href="https://github.com/sasankreddyvenna/Customer-360-AI-Dashboard"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-c360.svg" alt="Customer 360 Dashboard — customer context scattered across systems, pulled into a single view. Python."></a>
+<a href="https://github.com/sasankreddyvenna/anjaneyamobiles"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-anjaneya.svg" alt="Anjaneya Mobiles — repair-shop site with live IST hours and a WhatsApp quote builder. HTML, Cloudflare Pages."></a>
+<a href="https://github.com/sasankreddyvenna/F1-inspired-streetwear-brand"><img width="49%" src="https://raw.githubusercontent.com/sasankreddyvenna/sasankreddyvenna/main/assets/card-f1.svg" alt="F1 Streetwear — catalogue, live search filtering and a cart, in a compact storefront. React, TypeScript, Tailwind."></a>
+
+Deployed and running: [ACME CPM](https://acme-project-management.vercel.app) · [F1 Streetwear](https://f1-inspired-streetwear-brand.vercel.app) · [Anjaneya Mobiles](https://anjaneyamobiles.pages.dev/)
 
 ## Stack
 

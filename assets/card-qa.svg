@@ -1,0 +1,62 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" role="img" aria-label="Autonomous QA Agent. Requirement docs in, grounded test cases and Selenium scripts out. Built with Flask, ChromaDB, Groq">
+<title>Autonomous QA Agent</title>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#161D27"/>
+    <stop offset="1" stop-color="#10151C"/>
+  </linearGradient>
+  <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#5FCB3F" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#5FCB3F" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="barlit" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0"   stop-color="#5FCB3F" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#5FCB3F" stop-opacity="1"/>
+    <stop offset="1"   stop-color="#5FCB3F" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="card"><rect x="0.5" y="0.5" width="559" height="219" rx="13"/></clipPath>
+</defs>
+
+<style>
+  .dot { animation: pulse 3.8s ease-in-out infinite; animation-delay: -0.9s; }
+  @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: .3 } }
+
+  .lit { animation: run 6.5s ease-in-out infinite; animation-delay: -1.6s; }
+  @keyframes run { 0% { transform: translateY(-90px) } 100% { transform: translateY(230px) } }
+
+  .halo { transform-box: fill-box; transform-origin: center;
+          animation: drift 9s ease-in-out infinite; animation-delay: -1.6s; }
+  @keyframes drift { 0%, 100% { opacity: .75; transform: scale(1) }
+                     50%      { opacity: 1;   transform: scale(1.1) } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .dot, .lit, .halo { animation: none }
+    .lit { opacity: 0 }
+  }
+</style>
+
+<g clip-path="url(#card)">
+  <rect x="0" y="0" width="560" height="220" fill="url(#bg)"/>
+  <circle class="halo" cx="470" cy="34" r="132" fill="url(#halo)"/>
+
+  <!-- accent rail down the left edge, with a highlight running along it -->
+  <rect x="0" y="0" width="4" height="220" fill="#5FCB3F" opacity="0.45"/>
+  <rect class="lit" x="0" y="0" width="4" height="90" fill="url(#barlit)"/>
+</g>
+
+<circle class="dot" cx="528" cy="40" r="4.5" fill="#5FCB3F"/>
+
+<text x="30" y="45" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" letter-spacing="1.8" fill="#5FCB3F">LLM  /  TEST AUTOMATION</text>
+
+<text x="30" y="89" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-0.3" fill="#E9EEF5">Autonomous QA Agent</text>
+
+<text x="30" y="124" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#97A3B4">Requirement docs in, grounded test</text>
+<text x="30" y="147" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#97A3B4">cases and Selenium scripts out.</text>
+
+<path d="M30 172 H530" stroke="#29323F" stroke-width="1"/>
+
+<text x="30" y="196" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" letter-spacing="0.4" fill="#7A8698">Flask  /  ChromaDB  /  Groq</text>
+
+<rect x="0.5" y="0.5" width="559" height="219" rx="13" fill="none" stroke="#29323F" stroke-width="1"/>
+</svg>
